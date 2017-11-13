@@ -12,6 +12,7 @@ $("#doorbell").on("click", function() {
     ringDoorbell();
 });
 
+// if the user presses 'd' doorbell will ring
 $(document).on("keypress", function(event) {
     if(event.key === "d") {
       ringDoorbell();
